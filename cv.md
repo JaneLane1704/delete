@@ -23,7 +23,7 @@ I’m sure I can reach my full potential as a web programmer.
 
 ## Code example
 
-#### Task: create an object "calculator" with three methods:
+***Task: create an object "calculator" with three methods:***
 
 * `read()` - ask numbers and save them as object propeties;
 * `sum()` - return added numbers;
