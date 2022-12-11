@@ -29,45 +29,50 @@ I’m sure I can reach my full potential as a web programmer.
 * `sum()` - return added numbers;
 * `mul()` - return multiplied numbers;
 
-`const calculator = {`
    
-   `a: 0,`
-   
-   `b: 0,`
+      const calculator = {
+      
+         a: 0,
+      
+         b: 0,
+      
+         read () {
     
-   read () {
-    
-        this.a = +prompt('Number а');
+            this.a = +prompt('Number а');
         
-        this.b = +prompt('Number b');
+            this.b = +prompt('Number b');
     
-    },
+         },
     
-    sum () {
+         sum () {
     
-        alert (this.a + this.b);
+            alert (this.a + this.b);
         
-    },
+         },
     
-    mul () {
-        alert (this.a * this.b);
-    }
+         mul () {
+      
+            alert (this.a * this.b);
+         }
 
-}
+      }
 
-const read = calculator.read();
+      const read = calculator.read();
 
-const sum = calculator.sum();
+      const sum = calculator.sum();
 
-const mul = calculator.mul();
+      const mul = calculator.mul();
 
-console.log(calculator.a, calculator.b);`
+      console.log(calculator.a, calculator.b);
 
 ## Courses
 
 * CS50 Lecture (playlist on Youtube)
 * HTML Academy (free course "Introduction to Frontend")
 * theory and practice on [code.mu](https://code.mu/ru)
+* [user learner “Java-script”]( https://learn.javascript.ru/)
+* RS School “JS/Front-end.Stage 0(ru)”
+
 
 ## Language
 
